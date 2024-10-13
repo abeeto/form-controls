@@ -7,6 +7,62 @@
         <title>Form Controls One</title>
     </head>
     <body>
-        
+        <div class="container">
+            <form>
+                <fieldset>
+                    <legend>Log In Details</legend>
+                    <ul>
+                        <li>
+                            <label for="userId">User ID</label>
+                            <input type="text" id="userId" name="user_id">
+                        </li>
+                        <li>
+                            <label for="pwd">Password</label>
+                            <input type="password" id="pwd" name='userpwd'>
+                        </li>
+                        <li>
+                            <button type="submit">Log In</button>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Who is your favorite pony?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="pinkyPie" name="ponyPref" checked>
+                            <label for="pinkyPie">Pinky Pie</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="rainbowDash" name="ponyPref">
+                            <label for="rainbowDash">Rainbow Dash</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="twilightSparkle" name="ponyPref">
+                            <label for="twilightSparkle">Twilight Sparkle</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Hotdog Preferences</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="vegans" name="hotdogPref">
+                            <label for="vegans">Vegans</label>
+                        </li>    
+                        <li>
+                            <input type="checkbox" id="onions" name="hotdogPref">
+                            <label for="onions">Onions</label>
+                        </li>           
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <ul>
+                        <li><label for="pickPhoto">Choose gallery images to upload</label></li>
+                        <li><input type="file" accept="image/*" id='pickPhoto' name="photo"></li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </body>
 </html>
